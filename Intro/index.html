@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+</head>
+<body> 
+	<!--funcao-que-garante que só sera executada quando carregar 
+		o site-->
+	<script>
+		
+		window.onload = function(){
+			var animal = {};
+
+			animal.nome = [];
+			animal.peso = '24kg';
+			animal.idade = 23;
+			animal['idade'] = 24;
+
+			animal.nome[0] = 'Weverson';
+			animal.nome[1] = 'Joao';
+
+			console.log("Nome: " + animal.nome[0]);
+			console.log("Peso: " + animal.peso);
+			console.log("Idade: " + animal.idade);
+		}
+		
+	</script>
+	<!--fim da função-->
+</body>
+</html>
